@@ -1,0 +1,27 @@
+body {
+  padding: 1rem;
+  text-align: center;
+  background-color: green;
+}
+
+.container {
+  outline: 10px solid whitesmoke;
+  /* height: 50vh; */
+  /* width: 50vw; */
+  max-width: auto; /* 1200px; */
+  margin: 0;
+  background-color: black;
+}
+
+.row {
+display: flex;
+gap: 10px;
+margin-bottom: 10px;
+flex-wrap: wrap;
+}
+
+.column {
+padding: 1rem;
+flex: 1;
+
+}
